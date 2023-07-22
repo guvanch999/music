@@ -1,0 +1,37 @@
+.icon-button-class {
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+
+.icon-button-class:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.popUpBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+.popUpCardClass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.select-with-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #a4a1a1;
+  margin-top:10px
+}
